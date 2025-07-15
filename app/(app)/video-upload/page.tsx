@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 function VideoUpload() {
   const [file, setFile] = React.useState<File | null>(null);
-  const [title, setTitle] = React.useState("second");
+  const [title, setTitle] = React.useState("");
   const [description, setDescription] = React.useState("");
   const [isUploading, setIsUploading] = React.useState(false);
 
